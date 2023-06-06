@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM</title>
+</head>
+<body>
+
+   <h1 class="heading">JS Coding Assignments</h1>
+   
+   <hr>
+ <p>  Q1- Write the code to access element which is having id as "text" </p>
+ <div id="text"></div>
+ 
+ <hr>
+
+ <p>  Q2- Write the code to access element which is having class as "box" </p>
+ <div class="box">Hello</div>
+ 
+
+ <hr>
+
+ <p>  Q3- Write the code to access element which is having tag as "h1"</p>
+ <h1></h1>
+
+ <hr>
+
+ <p> Q4-&lt;h1&gt;Hello&lt;/h1&gt;</p>
+       <p>Change the heading from ""Hello"" to ""Hello World"" using DOM functions"</p>
+       <h1 id="text" onclick="changeText1()">Hello </h1>
+       
+       <hr>
+<p>Q5-Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this button page content should be changed to "Welcome to Elevation academy"
+</p>
+  <h1 
+   id="content">Helloworld</h1>
+  <button onclick="replaceText()">Replace Text</button>
+<hr>
+<p>Q-6-"&lt;h1&gt;Hello&lt;/h1&gt; <br>
+  Add one style attribute and give text color as red and id attribute and give the id value as ""heading"" in the above given h1 tag using DOM functions"</p>
+  <h1>Hello</h1>
+  <button onclick="addAttributes()">Add Attributes</button>
+
+ 
+<!-- Q7...... -->
+<p>Q-7-Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards arrangement should be changed to vertical direction.</p>
+<br>
+<div id="container" class="container">
+  <div class="card">Card 1</div>
+  <div class="card">Card 2</div>
+  <div class="card">Card 3</div>
+</div>
+<div class="button">
+  <button onclick="changeFlexDirection()">Change Flex Direction</button>
+</div>
+
+<!-- Q8 -->
+<p>Q8-What’s the difference between window vs document?</p>
+
+<div class="grid-container">
+  <div class="grid-item"><h3>WINDOW</h3></div>
+  <div class="grid-item"><h3>DOCUMENT</h3></div>
+  <div class="grid-item">The window object represents the browser window or tab in which the web page is loaded.</div>
+  <div class="grid-item">The document object represents the HTML document loaded in the browser window or tab.</div>
+  <div class="grid-item">It acts as the global object in the browser's JavaScript environment and provides access to various properties and methods.</div>
+  <div class="grid-item">It is a property of the window object and provides access to the structure and content of the document</div>
+  <div class="grid-item">It encompasses the entire browser window and includes features like navigation, location, history, timing, and more.</div>
+  <div class="grid-item">
+    It allows manipulation of the document's elements, such as selecting elements, modifying their properties, adding or removing elements, etc.
+  </div>
+  <div class="grid-item"
+  class="grid-item">Examples of properties and methods available through the window object are window.innerWidth, window.alert(), window.setTimeout(), etc.</div>
+  <div class="grid-item">
+    Examples of properties and methods available through the document object are document.getElementById(), document.createElement(), document.querySelector(), etc.
+  </div>
+</div>
+<!-- Q9 -->
+<p>Q-9 Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second </p>
+<h1>Start Clock</h1>
+<h1></h1>
+<!-- Q10 -->
+<p id="game
+">Q-10<h1> "GUESS MY NUMBER GAME"</h1></p>
+
+<div class="link"><a href="./index2.html">CLICK TO PLAY</a></div>
+ <script src="./script.js"></script>   
+</body>
+</html>
